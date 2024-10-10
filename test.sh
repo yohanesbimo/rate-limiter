@@ -1,0 +1,1 @@
+ab -n 100 -c 10 -H "x-api-key:1234" http://localhost:3000/ >> first.txt && ab -n 100 -c 10 -H "x-api-key:2345" http://localhost:3000/ >> second.txt
